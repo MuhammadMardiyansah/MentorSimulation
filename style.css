@@ -60,7 +60,7 @@ a {
   padding: 80px;
 }
 
-.contact-section {
+.contact-form {
   padding: 0 80px;
 }
 
@@ -82,7 +82,8 @@ a {
 }
 
 .title-experience h2,
-.title h2 {
+.title h2,
+.title-form h2 {
   text-align: center;
 }
 
@@ -93,14 +94,14 @@ a {
   background-color: #595eda;
 }
 
-.box-card {
+/* .box-card {
   width: 350px;
   background-color: white;
   padding: 30px;
   border-radius: 15px;
   margin: 50px auto;
   box-shadow: 15px 15px 30px #595eda;
-}
+} */
 
 input,
 textarea {
@@ -111,9 +112,34 @@ textarea {
 
 .form-input {
   border: solid 1px #b3b3b3;
-  padding: 5px;
+  padding: 6px;
   border-radius: 10px;
-  margin-bottom: 10px;
+}
+
+.form-box {
+  width: 390px;
+  margin: 20px auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 15px 15px 30px #595eda;
+}
+
+.name-box {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.name-title {
+  display: flex;
+  gap: 44px;
+}
+
+.text-form p {
+  color: black;
+  margin: 10px auto;
+  font-size: 14px;
 }
 
 textarea {
@@ -129,6 +155,7 @@ button {
   border-radius: 10px;
   color: white;
   font-weight: bold;
+  margin: 20px auto;
 }
 
 .flex-row {
